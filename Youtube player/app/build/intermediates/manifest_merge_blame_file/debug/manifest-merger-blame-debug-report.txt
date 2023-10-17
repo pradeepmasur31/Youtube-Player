@@ -1,0 +1,100 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.youtube_player"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\farha\AndroidStudioProjects\youtube_player\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->C:\Users\farha\AndroidStudioProjects\youtube_player\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\farha\AndroidStudioProjects\youtube_player\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\farha\AndroidStudioProjects\youtube_player\app\src\main\AndroidManifest.xml:5:22-64
+12
+13    <queries>
+13-->C:\Users\farha\AndroidStudioProjects\youtube_player\app\src\main\AndroidManifest.xml:6:5-10:15
+14        <intent>
+14-->C:\Users\farha\AndroidStudioProjects\youtube_player\app\src\main\AndroidManifest.xml:7:9-9:18
+15            <action android:name="com.google.android.youtube.api.service.START" />
+15-->C:\Users\farha\AndroidStudioProjects\youtube_player\app\src\main\AndroidManifest.xml:8:13-83
+15-->C:\Users\farha\AndroidStudioProjects\youtube_player\app\src\main\AndroidManifest.xml:8:21-80
+16        </intent>
+17    </queries>
+18
+19    <application
+19-->C:\Users\farha\AndroidStudioProjects\youtube_player\app\src\main\AndroidManifest.xml:12:5-40:19
+20        android:allowBackup="true"
+20-->C:\Users\farha\AndroidStudioProjects\youtube_player\app\src\main\AndroidManifest.xml:13:9-35
+21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+21-->[androidx.core:core:1.7.0] C:\Users\farha\.gradle\caches\transforms-3\21249a56641fb0309777a5ae16ce99ff\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+22        android:debuggable="true"
+23        android:icon="@mipmap/ic_launcher"
+23-->C:\Users\farha\AndroidStudioProjects\youtube_player\app\src\main\AndroidManifest.xml:14:9-43
+24        android:label="@string/app_name"
+24-->C:\Users\farha\AndroidStudioProjects\youtube_player\app\src\main\AndroidManifest.xml:15:9-41
+25        android:roundIcon="@mipmap/ic_launcher_round"
+25-->C:\Users\farha\AndroidStudioProjects\youtube_player\app\src\main\AndroidManifest.xml:16:9-54
+26        android:supportsRtl="true"
+26-->C:\Users\farha\AndroidStudioProjects\youtube_player\app\src\main\AndroidManifest.xml:17:9-35
+27        android:testOnly="true"
+28        android:theme="@style/Theme.Youtube_player" >
+28-->C:\Users\farha\AndroidStudioProjects\youtube_player\app\src\main\AndroidManifest.xml:18:9-52
+29        <activity
+29-->C:\Users\farha\AndroidStudioProjects\youtube_player\app\src\main\AndroidManifest.xml:19:9-27:20
+30            android:name="com.example.youtube_player.YoutubeActivity"
+30-->C:\Users\farha\AndroidStudioProjects\youtube_player\app\src\main\AndroidManifest.xml:20:13-44
+31            android:exported="true" >
+31-->C:\Users\farha\AndroidStudioProjects\youtube_player\app\src\main\AndroidManifest.xml:21:13-36
+32            <intent-filter>
+32-->C:\Users\farha\AndroidStudioProjects\youtube_player\app\src\main\AndroidManifest.xml:22:13-26:29
+33                <action android:name="android.intent.action.MAIN" />
+33-->C:\Users\farha\AndroidStudioProjects\youtube_player\app\src\main\AndroidManifest.xml:23:17-69
+33-->C:\Users\farha\AndroidStudioProjects\youtube_player\app\src\main\AndroidManifest.xml:23:25-66
+34
+35                <category android:name="android.intent.category.LAUNCHER" />
+35-->C:\Users\farha\AndroidStudioProjects\youtube_player\app\src\main\AndroidManifest.xml:25:17-77
+35-->C:\Users\farha\AndroidStudioProjects\youtube_player\app\src\main\AndroidManifest.xml:25:27-74
+36            </intent-filter>
+37        </activity>
+38        <activity
+38-->C:\Users\farha\AndroidStudioProjects\youtube_player\app\src\main\AndroidManifest.xml:28:9-32:20
+39            android:name="com.example.youtube_player.MainActivity"
+39-->C:\Users\farha\AndroidStudioProjects\youtube_player\app\src\main\AndroidManifest.xml:29:13-41
+40            android:exported="true" >
+40-->C:\Users\farha\AndroidStudioProjects\youtube_player\app\src\main\AndroidManifest.xml:30:13-36
+41        </activity>
+42        <activity
+42-->C:\Users\farha\AndroidStudioProjects\youtube_player\app\src\main\AndroidManifest.xml:33:9-37:20
+43            android:name="com.example.youtube_player.StandaloneActivity"
+43-->C:\Users\farha\AndroidStudioProjects\youtube_player\app\src\main\AndroidManifest.xml:34:13-47
+44            android:label="Standalone Activity" >
+44-->C:\Users\farha\AndroidStudioProjects\youtube_player\app\src\main\AndroidManifest.xml:35:13-48
+45        </activity>
+46
+47        <provider
+47-->[androidx.emoji2:emoji2:1.0.0] C:\Users\farha\.gradle\caches\transforms-3\beb1e8c1d1724370afa1be71eb324942\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+48            android:name="androidx.startup.InitializationProvider"
+48-->[androidx.emoji2:emoji2:1.0.0] C:\Users\farha\.gradle\caches\transforms-3\beb1e8c1d1724370afa1be71eb324942\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+49            android:authorities="com.example.youtube_player.androidx-startup"
+49-->[androidx.emoji2:emoji2:1.0.0] C:\Users\farha\.gradle\caches\transforms-3\beb1e8c1d1724370afa1be71eb324942\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+50            android:exported="false" >
+50-->[androidx.emoji2:emoji2:1.0.0] C:\Users\farha\.gradle\caches\transforms-3\beb1e8c1d1724370afa1be71eb324942\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+51            <meta-data
+51-->[androidx.emoji2:emoji2:1.0.0] C:\Users\farha\.gradle\caches\transforms-3\beb1e8c1d1724370afa1be71eb324942\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+52                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+52-->[androidx.emoji2:emoji2:1.0.0] C:\Users\farha\.gradle\caches\transforms-3\beb1e8c1d1724370afa1be71eb324942\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+53                android:value="androidx.startup" />
+53-->[androidx.emoji2:emoji2:1.0.0] C:\Users\farha\.gradle\caches\transforms-3\beb1e8c1d1724370afa1be71eb324942\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+54            <meta-data
+54-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\farha\.gradle\caches\transforms-3\4d87c3e3b70abeed5e61faf08f3b9b5b\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+55                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+55-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\farha\.gradle\caches\transforms-3\4d87c3e3b70abeed5e61faf08f3b9b5b\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+56                android:value="androidx.startup" />
+56-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\farha\.gradle\caches\transforms-3\4d87c3e3b70abeed5e61faf08f3b9b5b\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+57        </provider>
+58    </application>
+59
+60</manifest>

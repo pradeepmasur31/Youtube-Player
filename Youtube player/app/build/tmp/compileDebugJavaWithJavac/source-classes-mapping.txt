@@ -1,0 +1,10 @@
+com/example/youtube_player/StandaloneActivity.java
+ com.example.youtube_player.StandaloneActivity
+com/example/youtube_player/YoutubeActivity.java
+ com.example.youtube_player.YoutubeActivity
+ com.example.youtube_player.YoutubeActivity$1
+ com.example.youtube_player.YoutubeActivity$2
+com/example/youtube_player/BuildConfig.java
+ com.example.youtube_player.BuildConfig
+com/example/youtube_player/MainActivity.java
+ com.example.youtube_player.MainActivity
